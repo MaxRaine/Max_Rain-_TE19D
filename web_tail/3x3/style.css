@@ -9,5 +9,7 @@
     height: 100px;
     margin-bottom: 2%;
     background-color: seagreen;
-    position: relative;
+    border-radius: 30px;
+    border: black;
+   
 }
