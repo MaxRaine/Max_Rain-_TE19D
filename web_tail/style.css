@@ -1,16 +1,37 @@
+body {
+    background-color: lightsteelblue;
+}
+
 .container {
     display: flex;
+    margin: 5%; 
+    background-color:lightsalmon
 }
 
 .item {
+    display: flex;
     flex-grow: 1;
     height: 100px; 
+    justify-content: center;
+    background-color:lightblue;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
 
-    background-color: seagreen;
-  
 }
 
 .item + .item {
     margin-left: 2%;
 }
+
+
+a:link {
+    text-decoration: black;
+
+
+}
+
+
+
+
 
