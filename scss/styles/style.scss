@@ -1,3 +1,7 @@
-header {
-    background: lightblue;
+
+@import './header';
+@import './header';
+
+.contact button {
+    background: $primaryBtn;
 }
