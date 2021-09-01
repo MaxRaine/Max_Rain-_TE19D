@@ -1,14 +1,16 @@
 @import './variables';
 
-@mixin flexcenter {
+@mixin flexcenter($direction, $background) {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: $direction;
+    background: $background;
 }
 
 header {
-    @include flexcenter();
-    
+    @include flexcenter(colum, red);
     background: red;
     height: 100vh;
     button{
